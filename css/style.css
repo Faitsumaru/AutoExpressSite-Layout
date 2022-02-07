@@ -36,9 +36,17 @@ h2 {
     font-size: 36px;
     line-height: 54px;
 }
+h3 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+}
 h6 {
     color: #5A0D67;
     font-weight: 300;
+}
+ul {
+    list-style: none;
 }
 .main-title {
     color: #21062A;
@@ -207,8 +215,33 @@ section {
 .services__item:hover .services__item-title {
     color: #5A0D67;
 }
-.services__item-title {
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: 300;
+
+/*3 block*/
+.benefits__inner {
+    display: flex;
+    flex-wrap: wrap;
 }
+.benefits__content {
+    margin-left: 85px;
+}
+.benefits__title {
+    margin-left: 185px;
+}
+.benefits__info {
+    background-color: #21062A;
+    padding: 23px 284px 25px 175px;
+}
+.benefits__item {
+    margin-bottom: 20px;
+    width: 315px;
+}
+.benefits__item-title {
+    line-height: 42px;
+}
+.benefits__item-title,
+.benefits__item-subtitle {
+    color: #fff;
+}
+.benefits__info p {
+    color: #C4C4C4;
+} 
