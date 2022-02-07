@@ -88,7 +88,7 @@ section {
     transition: all .5s ease-in-out;
 }
 .phone:hover,
-.header__social-item:hover {
+.social-item:hover {
     opacity: 0.7;
 }
 .header__content {
@@ -115,14 +115,14 @@ section {
     background-color: #fff;
     color: #5A0D67;
 }
-.header__social {
+.header .social {
     padding: 70px 0 20px 66px;
     align-items: center;
 }
-.header__social-item + .header__social-item {
+.social-item + .social-item {
     margin-left: 10px;
 }
-.header__social-item {
+.social-item {
     vertical-align: middle;
     transition: all .5s ease-in-out;
 }
@@ -338,7 +338,8 @@ section {
     padding: 0 15px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 17px;
+    align-items: center;
 }
 .contacts__input::placeholder {
     text-align: center;
@@ -353,4 +354,23 @@ section {
     cursor: pointer;
     border: none;
     color: #fff;
+}
+
+/*6 block*/
+.footer {
+    background-color: #21062A;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 25px 0;
+}
+.footer__link {
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.footer__link:hover {
+    color:rgba(255, 255, 255, 0.8);
 }
