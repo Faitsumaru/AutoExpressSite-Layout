@@ -35,6 +35,7 @@ h2 {
     font-weight: 400;
     font-size: 36px;
     line-height: 54px;
+    text-transform: uppercase;
 }
 h3 {
     font-weight: 300;
@@ -291,4 +292,65 @@ section {
     height: 3px;
     background-color: #5A0D67;
     outline: none;
+}
+
+/*5 block*/
+.contacts {
+    padding-bottom: 0;
+}
+.contancts__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contacts__info {
+    width: 180px;
+    margin-right: 120px;
+    padding-top: 50px;
+}
+.contancts__list {
+    padding-bottom: 36px;
+}
+.contacts__item {
+    margin-bottom: 20px;
+}
+.contacts__form {
+    text-align: center;
+    background-color: #21062A;
+    padding: 50px 75px 57px;
+}
+.contacts__form-title {
+    color: #fff;
+    margin-bottom: 16px;
+    margin-right: 80px;
+}
+.contacts__form-title::after {
+    background-color: #fff;
+}
+.contacts__input {
+    display: block;
+    width: 450px;
+    height: 75px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 12px;
+    padding: 0 15px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+.contacts__input::placeholder {
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #c4c4c4;
+    font-family: 'Oswald', sans-serif;
+}
+.contacts__btn {
+    margin-top: 66px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
 }
