@@ -1,5 +1,11 @@
 /*Adaptive*/
 
+@media (max-width: 1220px) {
+    /*3 block*/
+    .benefits__info {
+        padding: 23px 175px 25px 175px;
+    }
+}
 @media (max-width: 1150px) {
     /*2 block*/
     .services__inner {
@@ -24,6 +30,13 @@
     .services__item:hover {
         width: 80%;
     }
+    /*3 block*/
+    .benefits__info {
+        padding: 23px 50px 25px 50px;
+    }
+    .benefits__title {
+        margin-left: 0;
+    }
 }
 @media (max-width: 1120px) {
     /*1 block*/
@@ -35,7 +48,26 @@
         padding-top: 260px;
     }
 }
+@media (max-width: 860px) {
+    /*3 block*/
+    .benefits__inner {
+        display: block;
+        position: relative;
+    }
+    .benefits__content {
+        margin-left: 0;
+    }
+    .benefits__img {
+        width: 30%;
+        position: absolute;
+        z-index: 5;
+        right: 10%;
+    }
+}
 @media (max-width: 800px) {
+    section {
+        padding-bottom: 50px;
+    }
     /*1 block*/
     h1 {
         font-size: 57px;
@@ -74,6 +106,9 @@
     .services__item::before {
         font-size: 30px;
         line-height: 68px;
+    }
+    .main-title {
+        margin-bottom: 30 px;
     }
 }
 @media (max-width: 640px) {
@@ -115,6 +150,24 @@
     }
     .services__item::before {
         line-height: 67px;
+    }
+    /*3 block*/
+    .benefits__img {
+        right: 5%;
+        width: 25%;
+        top: 0;
+    }
+}
+@media (max-width: 530px) {
+    /*3 block*/
+    .benefits__img {
+        display: none;
+    }
+    .benefits__item-title {
+        line-height: 28px;
+    }
+    section {
+        padding-bottom: 25px;
     }
 }
 @media (max-width: 500px) {
@@ -161,12 +214,28 @@
     .main-title {
         margin-bottom: 20px;
     }
+    /*4 block*/
+    .auto .slick-dots {
+        margin-top: 10px;
+    }
+    .auto .slick-active button {
+        height: 2px;
+    }
 }
 @media (max-width: 440px) {
     /*2 block*/
     .button--decor::before,
     .button--decor::after {
         display: none;
+    }
+    /*3 block*/
+    .benefits__item {
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+    /*4 block*/
+    .auto .slick-dots button {
+        width: 20px;
     }
 }
 @media (max-width: 385px) {

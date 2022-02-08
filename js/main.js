@@ -7,7 +7,7 @@ $(function() {
         infinite: true,
         cssEase: 'linear',
         slidesToShow: 3,
-        autopflay: true,
-        autofplaySpeed: 7000,
+        autoplay: true,
+        autofplaySpeed: 7000
     });
 });

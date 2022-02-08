@@ -219,7 +219,6 @@ section {
 /*3 block*/
 .benefits__inner {
     display: flex;
-    flex-wrap: wrap;
 }
 .benefits__content {
     margin-left: 85px;
