@@ -48,6 +48,18 @@
         padding-top: 260px;
     }
 }
+@media (max-width: 950px) {
+    /*5 block*/
+    .contacts__info {
+        margin-right: 75px;
+    }
+}
+@media (max-width: 900px) {
+    /*5 block*/
+    .contacts__form {
+        padding: 50px 20px 15px;
+    }
+}
 @media (max-width: 860px) {
     /*3 block*/
     .benefits__inner {
@@ -108,7 +120,36 @@
         line-height: 68px;
     }
     .main-title {
-        margin-bottom: 30 px;
+        margin-bottom: 30px;
+    }
+    /*5 block*/
+    .contacts__info {
+        margin-right: 50px;
+    }
+    /*6 block*/
+    .footer__inner {
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .footer__inner .social {
+        margin: 10px 40px;
+    }
+    .footer__inner .logo {
+        margin: 5px 0;
+    }
+}
+@media (max-width: 760px) {
+    /*5 block*/
+    .contacts__input {
+        width: 385px;
+        height: 60px;
+    }
+}
+@media (max-width: 700px) {
+    /*5 block*/
+    .contacts__input {
+        width: 320px;
+        height: 56px;
     }
 }
 @media (max-width: 640px) {
@@ -157,6 +198,17 @@
         width: 25%;
         top: 0;
     }
+    /*5 block*/
+    .contacts__info {
+        margin-right: 15px;
+    }
+    .contacts__btn {
+        margin-top: 50px;
+    }
+    .contacts__input {
+        width: 253px;
+        height: 53px;
+    }
 }
 @media (max-width: 530px) {
     /*3 block*/
@@ -168,6 +220,28 @@
     }
     section {
         padding-bottom: 25px;
+    }
+    /*5 block*/
+    .contancts__inner {
+        display: block;
+    }
+    .contacts__info {
+        margin: 0 auto; 
+    }
+    .contacts__form {
+        padding: 30px;
+        max-width: 90%;
+        margin: 0 auto;
+        border-radius: 10% / 50%;
+    }
+    .contacts__input {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        max-width: 90%;
+        font-size: 15px;
+    }
+    .contacts__input::placeholder {
+        font-size: 15px;    
     }
 }
 @media (max-width: 500px) {
@@ -221,6 +295,13 @@
     .auto .slick-active button {
         height: 2px;
     }
+    /*6 block*/
+    .footer__inner .logo__img {
+        width: 80%; 
+    }
+    .footer__inner .logo {
+        text-align: center;
+    }
 }
 @media (max-width: 440px) {
     /*2 block*/
@@ -258,7 +339,7 @@
     .header__image {
         bottom: -100px;
     }
-    .logo__img {
+    .header .logo__img {
         max-width: 50%;
     }
     .phone {
