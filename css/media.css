@@ -1,0 +1,238 @@
+/*Adaptive*/
+
+@media (max-width: 1150px) {
+    /*2 block*/
+    .services__inner {
+        display: block;
+    }
+    .services__content-box {
+        margin: 0 auto;
+        padding-bottom: 30px;
+        width: 80%;
+    }
+    .services__content-textbox + .services__content-textbox {
+        margin-top: 30px;
+    }
+    .button--decor {
+        margin-top: 10px;
+    }
+    .services__item {
+        margin: 0 auto;
+        margin-bottom: 12px;
+        width: 70%;
+    }
+    .services__item:hover {
+        width: 80%;
+    }
+}
+@media (max-width: 1120px) {
+    /*1 block*/
+    .header__image {
+        max-width: 70%;
+        bottom: -245px;
+    }
+    .services {
+        padding-top: 260px;
+    }
+}
+@media (max-width: 800px) {
+    /*1 block*/
+    h1 {
+        font-size: 57px;
+        line-height: 82px;
+    }
+    h2 {
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .header__content {
+        padding-top: 40px;
+    }
+    .header .social {
+        padding: 50px 0 20px 0;
+        align-items: center;
+    }
+    .header__image {
+        bottom: -275px;
+    }
+    body {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /*2 block*/
+    .services {
+        padding-top: 200px;
+    }
+    .services__item {
+        height: 100px;
+        padding: 20px 15px 10px 113px;
+    }
+    h3 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    .services__item::before {
+        font-size: 30px;
+        line-height: 68px;
+    }
+}
+@media (max-width: 640px) {
+    /*1 block*/
+    h1 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    h2 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    body {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .header__content {
+        padding-top: 30px;
+    }
+    .header {
+        min-height: 620px;
+    }
+    .header__image {
+        bottom: -220px;
+    }
+    /*2 block*/
+    .services {
+        padding-top: 135px;
+    }
+    .services__item:hover {
+        width: 80%;
+    }
+    .services__item::before {
+        line-height: 58px;
+    }
+    h3 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .services__item::before {
+        line-height: 67px;
+    }
+}
+@media (max-width: 500px) {
+    /*1 block*/
+    h1 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .header__subtitle, .header__text {
+        margin-bottom: 16px;
+    }
+    body {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .header {
+        min-height: 560px;
+    }
+    .header__image {
+        bottom: -175px;
+    }
+    /*2 block*/
+    .services {
+        padding-top: 100px;
+    }
+    h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .services__item {
+        height: 100px;
+        padding: 27px 15px 10px 60px;
+    }
+    .services__item::before {
+        left: 14px;
+    }
+    .services__item {
+        width: 70%;
+    }
+    .main-title {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 440px) {
+    /*2 block*/
+    .button--decor::before,
+    .button--decor::after {
+        display: none;
+    }
+}
+@media (max-width: 385px) {
+    /*1 block*/
+    h1 {
+        font-size: 26px;
+        line-height: 44px;
+    }
+    h2 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    body {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .header {
+        min-height: 485px;
+    }
+    .header__image {
+        bottom: -100px;
+    }
+    .logo__img {
+        max-width: 50%;
+    }
+    .phone {
+        width: 100px;
+    }
+    /*2 block*/
+    .services {
+        padding-top: 70px;
+    }
+    .button {
+        line-height: 16px;
+        font-size: 11px;
+        padding: 15px 40px;
+    }
+}
+@media (max-width: 340px) {
+    /*1 block*/
+    h1 {
+        font-size: 23px;
+        line-height: 41px;
+    }
+    h2 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    body {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .header__image {
+        bottom: -125px;
+    }
+}
+@media (max-width: 310px) {
+    /*2 block*/
+    .services__item {
+        width: 100%;
+    }
+    .button {
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .header__content {
+        padding-top: 0px;
+    }
+}

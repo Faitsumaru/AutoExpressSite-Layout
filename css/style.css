@@ -138,7 +138,6 @@ section {
 }
 .services__inner {
     display: flex;
-    flex-wrap: wrap;
 }
 .services__content-box {
     width: 505px;
